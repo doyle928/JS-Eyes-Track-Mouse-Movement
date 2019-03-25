@@ -1,0 +1,66 @@
+html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#main {
+    min-width: 100vw;
+    height: 100vh;
+}
+
+#main img {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.eye {
+    z-index: 0;
+    width: 100vw;
+    height: auto;
+}
+
+#objectCoords {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+}
+
+.dot-container {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.dot-left {
+    position: absolute;
+    top: 26.5%;
+    left: 59.75%;
+    width: 10px;
+    height: 10px;
+    background-color: #00000000;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.dot-right {
+    position: absolute;
+    top: 25%;
+    left: 65.5%;
+    width: 10px;
+    height: 10px;
+    background-color: #00000000;
+    border-radius: 50%;
+    z-index: 2;
+}
